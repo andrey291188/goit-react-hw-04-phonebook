@@ -1,0 +1,25 @@
+.list {
+  width: 350px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.item {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.button_delet {
+    width: 80px;
+    height: 40px;
+    font-size: 20px;
+    font-weight: 600;
+}
