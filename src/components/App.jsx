@@ -26,6 +26,7 @@ const App = () => {
   }, [contacts]);
 
   const addContact = ({ name: nameProps, number: numberProps }) => {
+
     const includsName = contacts.find(
       ({ name, number }) =>
         name.toLowerCase() === nameProps.toLowerCase() || number === numberProps
